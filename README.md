@@ -22,6 +22,24 @@
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/IBM/AssetOpsBench/blob/main/notebook/LLM_Agent.ipynb)
 </div>
 
+---
+
+## 📢 Call for Scenario Contribution
+We are expanding **AssetOpsBench** to cover a broader range of industrial challenges. We invite researchers and practitioners to contribute new scenarios, particularly in the following areas:
+
+* **Asset Classes:** Turbines, HVAC Systems, Pumps, Transformers, CNC Machines, Robotics, Engines, and so on.
+* **Task Domains:** Prognostics and Health Management, Remaining Useful Life (RUL) estimation, or Root Cause Analysis (RCA), Diagnostic Analysis and Predictive Maintenance.
+
+**How to contribute:**
+1.  **Define** your scenario following our [Guideline](https://github.com/IBM/AssetOpsBench/blob/extra_scenarios/experimental_scenarios/utterance_design_guideline.md).
+1.  **Explore** the [Hugging Face dataset](https://huggingface.co/datasets/ibm-research/AssetOpsBench) as examples.
+3.  **Submit** a Pull Request or open an [Issue](https://github.com/IBM/AssetOpsBench/issues) with the tag `new-scenario`.
+4. **Contact us** via email if any question:
+   * Dhaval Patel ([pateldha@us.ibm.com](mailto:pateldha@us.ibm.com))
+   * Nianjun Zhou ([jzhou@us.ibm.com](mailto:jzhou@us.ibm.com))
+
+---
+
 ## Resources
 - **Video Overview:** [AssetOpsBench - AI Agents for Industrial Asset Operations & Maintenance](https://www.youtube.com/watch?v=kXmBDMrKFjs) by Reliability Odyssey.
   
@@ -124,13 +142,6 @@ Explore all scenarios [HF-Dataset](https://huggingface.co/datasets/ibm-research/
 ### MCP Environment
 The `mcp/` directory contains MCP servers and a plan-execute runner built on the [Model Context Protocol](https://modelcontextprotocol.io/).
 See **[INSTRUCTIONS.md](./INSTRUCTIONS.md)** for setup, usage, and testing.
-
----
-
-## System Diagram
-Visual overview of AssetOpsBench workflow:  
-
-![System Diagram](path/to/system_diagram.png)  <!-- Replace with your image path -->
 
 ---
 
